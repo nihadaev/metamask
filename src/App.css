@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.send-transaction{
+    width: 40%;
+    margin: 50px auto;
+}
+.send-transaction h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: rgba(0, 0, 255, 0.555);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 40px;
+    border: 1px solid rgba(0, 0, 255, 0.404);
+    border-radius: 3%;
+}
+
+form input{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.726);
+    border-radius: 3%;
+    border: 1px solid rgba(0, 0, 255, 0.404);
+    padding: 5px 8px;
+    width: 300px;
+}
+form label{
+    display: flex;
+    flex-direction: column;
+}
+form button{
+    width: 200px;
+    background-color: rgba(7, 7, 46, 0.699);
+    color: #fff;
+    border: none;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+.connect{
+    padding: 5px 13px;
+    margin: 20px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5%;
+}
+.connect.active{
+    background-color: red;
+}
